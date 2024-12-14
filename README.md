@@ -1,7 +1,6 @@
+# 🍂 Spring Clinic Hub
 
-# Spring Clinic Hub
-
-🍂 **Spring Clinic Hub** is a healthcare management platform designed to streamline clinic operations. It handles patient, doctor, and appointment workflows, with features including advanced logging, audit trails, and secure management of sensitive data.
+**Spring Clinic Hub** is a healthcare management platform designed to streamline clinic operations. It handles patient, doctor, and appointment workflows, with features including advanced logging, audit trails, and secure management of sensitive data.
 
 ## Features
 
@@ -32,24 +31,26 @@
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/spring-clinic-hub.git
    cd spring-clinic-hub
    ```
 
 2. Build the project using Maven or Gradle:
+
    ```bash
    mvn clean install   # If using Maven
    gradle build        # If using Gradle
    ```
 
 3. Run the application:
+
    ```bash
    docker-compose up
    ```
 
 4. Access the API documentation via Swagger at `http://localhost:8080/swagger-ui/`.
-
 
 ## Usage
 
